@@ -1,0 +1,56 @@
+.header{
+
+    background-color: #fff;
+    width: 100%;
+
+
+    &__logo{
+        text-transform: uppercase;
+        background-color: #63c6ae;
+        font-size: 24px;
+        margin: 0;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+        font-weight: bold;
+        color: #fff;
+        float: left;
+    }
+
+    &__btnMenu{
+
+    }
+
+    &__nav{
+        // display: inline-block;
+        clear: both;
+
+        ul{
+            margin: 0;
+            padding: 0;
+
+            li{
+                list-style: none;
+                background: #242c2c;
+                text-align: center;
+                border-bottom: 2px dotted rgba(255,255,255, 0.2);
+                
+                a{
+                    padding: 25px 0;
+                    display: block;
+                    text-transform: uppercase;
+                    color: #586165;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    transition: color .4s ease;
+
+                    &:hover{
+                        color: #63c6ae;
+                    }
+
+                }
+            }
+        }
+    }
+}

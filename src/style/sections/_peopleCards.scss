@@ -1,0 +1,48 @@
+.peoples-cards{
+    margin-top: 2.5em;
+
+    &__card{
+        
+         &:hover{
+            outline: 5px solid #63c6ae;
+            outline-offset: -5px;
+        }
+    }
+
+    &__card:hover &__avatar img{
+        transform: translateY(-50%);
+    }
+
+    &__card:hover &__title,
+    &__card:hover &__text{
+        color: #63c6ae;
+    }
+
+    &__image{
+        width: 100%;
+    }
+
+    &__avatar{
+        margin: -55px auto;
+        width: 88px;
+        height: 88px;
+        overflow: hidden;
+    }
+
+    &__content{
+        text-align: center;
+        padding: 40px 25px 10px;
+        border-left: 2px solid #ebe1e7 ;
+    }
+
+    &__title{
+        color: #737c85;
+        font-size: 21px;
+        font-weight: normal;
+    }
+
+    &__text{
+        color: #929da5;
+        font-size: 14px;
+    }
+}

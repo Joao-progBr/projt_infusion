@@ -1,0 +1,17 @@
+{
+  "name": "projeto-pessoal-infusion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/style:build/style --watch",
+    "copy-img": "xcopy src\\img build\\img /E /I /Y",
+    "build": "npm run sass && npm run copy-img",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.88.0"
+  }
+}
