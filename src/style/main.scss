@@ -3,6 +3,10 @@
 @use 'sections/hero';
 @use 'sections/peopleCards';
 @use 'sections/content';
+@use 'sections/lastArticles';
+@use 'carroussel/laptopSlider';
+@use 'carroussel/quotes';
+@use 'footer';
 
 body{
     margin: 0;

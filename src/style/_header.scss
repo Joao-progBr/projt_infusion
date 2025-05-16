@@ -23,7 +23,7 @@
 
     &__nav{
         // display: inline-block;
-        clear: both;
+        clear: left;
 
         ul{
             margin: 0;
@@ -48,9 +48,50 @@
                     &:hover{
                         color: #63c6ae;
                     }
-
                 }
             }
         }
     }
 }
+
+// responsive
+
+@media screen and (min-width: 1024px){
+
+    .header{
+        position: fixed;
+
+        &__logo{
+            width: 25%;
+            text-align: end;
+            box-sizing: border-box;
+        }
+
+        &__btnMenu{
+            display: none;
+        }
+
+        &__nav{
+            float: left;
+            width: 75%;
+            clear: none;
+            max-width: 800px;
+
+            ul{
+                display: flex;
+                justify-content: space-around;
+                
+                li{
+                    flex-grow: 1;
+                    border: none;
+                    a{
+                        background-color: #fff;
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+
+
