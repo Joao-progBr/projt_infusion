@@ -1,8 +1,6 @@
 .header{
-
     background-color: #fff;
     width: 100%;
-
 
     &__logo{
         text-transform: uppercase;
@@ -79,14 +77,14 @@
 
             ul{
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 
                 li{
                     flex-grow: 1;
                     border: none;
+                    
                     a{
                         background-color: #fff;
-                       
                     }
                 }
             }
