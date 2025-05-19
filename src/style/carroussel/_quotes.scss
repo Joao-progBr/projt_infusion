@@ -23,3 +23,43 @@
     margin-top: 5em;
 }
 
+.js .quotes-slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 950px;
+    box-sizing: border-box;
+    padding: 0 50px;
+    color: white;
+}
+.js .quotes-slider figure h2{
+    margin-top: 0;
+}
+.js .quotes-slider figure{
+    opacity: 0;
+    transition: 1s opacity;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.js .quotes-slider figure.show{
+    opacity: 1;
+    position: static;
+    
+}
+.js .quotes-slider .prev, .js .quotes-slider .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.js .quotes-slider .prev{
+    left: 10px;
+}
+.js .quotes-slider .next{
+    right: 10px;
+}
+
