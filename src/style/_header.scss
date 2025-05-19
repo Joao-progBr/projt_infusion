@@ -16,7 +16,45 @@
     }
 
     &__btnMenu{
+        float: right;
+        margin: 1.5em;
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        // position: relative;
+        // width: 30px;
+        // height: 20px;
+        cursor: pointer;
+        // z-index: 2;
+        
+        // .sr-only{
+        //     display: block;
+        //     background-color: red;
+        //     height: 4px;
+        //     width: 100%;
+        //     border-radius: 2px;
+        //     position: relative;
+        //     // transition: all 0.3s ease;
 
+        //     &::before,
+        //     &::after {
+        //         content: '';
+        //         position: absolute;
+        //         width: 100%;
+        //         height: 4px;
+        //         background-color: black;
+        //         border-radius: 2px;
+        //         // transition: all 0.3s ease;
+        //     }
+
+        //     &::before {
+        //         top: -8px;
+        //     }
+
+        //     &::after {
+        //         top: 8px;
+        //     }
+        // } 
     }
 
     &__nav{
@@ -50,6 +88,15 @@
             }
         }
     }
+}
+
+.js .header{
+    position: fixed;
+    z-index: 1;
+}
+
+.js .header__nav{
+    transition: max-height 1s;
 }
 
 // responsive
