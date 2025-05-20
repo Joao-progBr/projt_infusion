@@ -1,3 +1,5 @@
+@use 'vars';
+
 .footer{
     background-color: #242a2c;
     padding: 50px 0 250px;
@@ -24,7 +26,7 @@
 
                 &:hover{
                     //  background-color: #63c6ae;
-                     color:  #63c6ae;
+                     color: vars.$colorSecundary ;
                 }
             }
         }

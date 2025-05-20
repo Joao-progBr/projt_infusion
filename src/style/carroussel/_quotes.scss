@@ -1,18 +1,20 @@
+@use '../vars';
+
 .quotes{
-    background-color: #63c6ae;
+    background-color: vars.$backgroundColorPrimary;
     padding: 50px 0;
     border-bottom: 12px solid #58b9a1;
 
     &-slider{
         h2{
-            color: #fff;
+            color: vars.$colorPrimary;
             font-size: 30px;
             font-style: italic;
             font-weight: normal;
         }
 
         figcaption{
-            color: #fff;
+            color: vars.$colorPrimary;
             font-size: 30px;
             text-align: center;
         }
@@ -30,7 +32,7 @@
     max-width: 950px;
     box-sizing: border-box;
     padding: 0 50px;
-    color: white;
+    color: vars.$colorPrimary;
 }
 .js .quotes-slider figure h2{
     margin-top: 0;

@@ -1,10 +1,12 @@
+@use '../vars';
+
 .peoples-cards{
     margin-top: 2.5em;
 
     &__card{
         
          &:hover{
-            outline: 5px solid #63c6ae;
+            outline: 5px solid vars.$colorSecundary;
             outline-offset: -5px;
         }
     }
@@ -15,7 +17,7 @@
 
     &__card:hover &__title,
     &__card:hover &__text{
-        color: #63c6ae;
+        color: vars.$colorSecundary;
     }
 
     &__image{

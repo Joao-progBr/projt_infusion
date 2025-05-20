@@ -1,12 +1,14 @@
+@use '../vars';
+
 .last-articles{
 
     &__title{
-        background-color: #63c6ae;
+        background-color: vars.$backgroundColorPrimary;
         padding: 5px 0;
 
         h2{
             font-size: 24px;
-            color: #fff;
+            color: vars.$colorPrimary;
             text-transform: uppercase;
             font-weight: 400;
         }

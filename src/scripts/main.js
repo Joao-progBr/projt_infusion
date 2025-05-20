@@ -86,6 +86,7 @@
         }
     }
 
+    
 
     // configuração carrossel DIV laptop-slider
     let carousel = new Carousel({
@@ -158,10 +159,4 @@
             _this.itens[slide].classList.add('show')
         }
     }
-
-
-
-    
-
-
 })()

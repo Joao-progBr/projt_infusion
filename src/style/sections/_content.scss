@@ -1,3 +1,5 @@
+@use '../vars';
+
 .content{
     background-color: #f8f9f9;
     padding: 20px 0 80px;
@@ -10,7 +12,7 @@
         font-weight: 500;
     }
     p{
-        color: #929da5;
+        color: vars.$colorText;
         font-size: 14px;
         word-spacing: 4px;
     }

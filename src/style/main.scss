@@ -7,6 +7,7 @@
 @use 'carroussel/laptopSlider';
 @use 'carroussel/quotes';
 @use 'footer';
+@use 'vars';
 
 body{
     margin: 0;
@@ -28,8 +29,8 @@ img{
 .button{
     padding: 15px 40px;
     border-radius: 3px;
-    background-color: red;
-    color: #fff;
+    // background-color: red;
+    color: vars.$colorPrimary;
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
@@ -38,18 +39,18 @@ img{
     transition: background-color .5s ease;
 
     &:hover{
-        background-color: #929da5;
+        background-color: vars.$colorText;
     }
 }
 
 .button-primary{
-    background-color: #63c6ae;
-    color: #fff;
+    background-color: vars.$backgroundColorPrimary;
+    color: vars.$colorPrimary;
 }
 
 .button-secundary{
     background-color: #455357;
-    color: #fff;
+    color: vars.$colorPrimary;
 }
 
 
