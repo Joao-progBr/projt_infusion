@@ -96,7 +96,7 @@
         btnNext: '.next'
     })
 
-    // configuração carrossel DIV laptop-slider
+    // configuração carrossel section quotes
     let carouselQuotes = new Carousel({
         container: '.quotes-slider',
         itens: 'figure',
@@ -125,8 +125,8 @@
 
         function init(){
             let _show = _this.container.querySelectorAll('.show')
-            Array.prototype.forEach.call(_show, function(){
-                ShadowRoot.classList.remove('show')
+            Array.prototype.forEach.call(_show, function(el){
+                el.classList.remove('show')
             })
             _this.itens[0].classList.add('show')
             _this.btnNext.removeAttribute('style')
